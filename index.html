@@ -15,12 +15,23 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            new Typed(".typed-text", {
+                strings: ["Software Engineer.", "Web Developer.", "Problem Solver."],
+                typeSpeed: 100, // Typing speed in milliseconds
+                backSpeed: 50, // Backspacing speed in milliseconds
+                loop: true, // Loop the animation
+            });
+        });
+    </script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top">Nicholas Kingston</a>
+                <a class="navbar-brand" href="#page-top">NK</a>
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -48,7 +59,10 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Software Engineer - Web Designer</p>
+                <p class="masthead-subheading font-weight-light mb-0">I am a <span class="typed-text"></span></p>
+                    <span class="typed-text"></span>
+                    <span class="cursor">&nbsp;</span>
+                </p>
             </div>
         </header>
         <!-- Portfolio Section-->
