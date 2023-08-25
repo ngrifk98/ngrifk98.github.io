@@ -3778,7 +3778,10 @@ textarea.form-control-lg {
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
 }
-
+.navbar-logo {
+  max-width: 150px; /* Adjust the width as needed */
+  height: auto;
+}
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
