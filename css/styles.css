@@ -603,6 +603,12 @@ progress {
   height: auto;
 }
 
+/* CSS Stylesheet */
+.medium-image {
+  max-width: 400px; /* Adjust the width as needed for a medium size */
+  height: auto;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
