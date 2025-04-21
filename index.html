@@ -163,7 +163,7 @@
                 </div>
                 <!-- Download Resume Section Button-->
                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="/assets/download/NickKingston_Resume_gr8Tester.pdf" download>
+                    <a class="btn btn-xl btn-outline-light" href="/assets/download/NickKingston_Resume_2025.pdf" download>
                         <i class="fas fa-download me-2"></i>
                         Download My Resume
                     </a>
@@ -302,8 +302,15 @@
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; 2024 NGK</small></div>
+            <div class="container">
+                <small>Copyright &copy; <span id="year"></span> NGK</small>
+            </div>
         </div>
+        
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+        
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
